@@ -1,6 +1,6 @@
 package hostel;
 import hostel.*;
-import java.util.*;
+import java.util.Scanner;
 import java.sql.*;
 
 
@@ -34,10 +34,8 @@ public class Create
 			System.out.println("Enter Mobile Number");
 			long mobilenumber = scan.nextLong();
 			
-			Rooms room = new Rooms();
-			room.rommAllocate();
-			int roomnumber = room.deleteFirst();
-			room.insertLast(roomnumber);
+			System.out.println("Enter Room Number");
+			int roomnumber = scan.nextInt();
 			
 			
 			

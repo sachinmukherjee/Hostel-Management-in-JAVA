@@ -1,5 +1,5 @@
 package hostel;
-import java.util.*;
+import java.util.Scanner;
 import hostel.*;
 import java.sql.*;
 

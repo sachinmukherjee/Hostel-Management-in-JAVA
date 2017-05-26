@@ -1,6 +1,6 @@
 package hostel;
 import hostel.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class Select 
 {
@@ -48,7 +48,7 @@ public class Select
 			
 		case 5:
 			{
-				Outing.outingAllocation();					//method for outings
+				Outing.Outings();					//method for outings
 				break;
 			}
 		
